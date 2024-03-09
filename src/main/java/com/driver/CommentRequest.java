@@ -6,20 +6,18 @@ public class CommentRequest {
     private String comment;
 
     public String getVideoId() {
-    	// your code goes here
         return videoId;
     }
 
     public void setVideoId(String videoId) {
-    	// your code goes here
+        this.videoId = videoId;
     }
 
     public String getComment() {
-    	// your code goes here
         return comment;
     }
 
     public void setComment(String comment) {
-    	// your code goes here
+        this.comment = comment;
     }
 }
